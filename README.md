@@ -273,7 +273,8 @@ This method shows the ids of the parent groups Inodes) and ungrouped items on a 
 This method finds all items in a parent group or ungrouped item. Requires the use of the equipmentListId (from equipment-list/{id}) and the parentLineItemId (from api/eqlist-line-item/nodes-by-ids)
 
 ***sample response from api/eqlist-line-item/node-list/{parentLineItemId}*** <br>
-http request *note in the request the parentLineItemId is follows the method without any identifier (i.e. there is not ...node-list/parentLineItemId=83a711...)*
+http request <br>
+*note in the request the parentLineItemId is follows the method without any identifier (i.e. there is not ...node-list/parentLineItemId=83a711...)*
 ```
 https://inspirmedia.flexrentalsolutions.com/f5/api/eqlist-line-item/node-list/83a71180-8492-11ee-9ae0-e2999141f70a?equipmentListId=838a13a0-8492-11ee-9ae0-e2999141f70a&page=0&size=20
 ```
