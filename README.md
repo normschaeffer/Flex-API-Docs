@@ -9,7 +9,7 @@ Respository for the planning and development of the Pinpoint equipment availabil
 [General Notes](https://github.com/normschaeffer/Flex-API-Docs/blob/main/README.md#general-notes)  
 [Business Location](business location link here)  
 [Equipment List](equipment list link here)  
-  [Equipment List Line Item Nodes by Ids](Equipment List Line Item Nodes by Ids link here)
+  ([Equipment List Line Item Nodes by Ids link here](https://github.com/normschaeffer/Flex-API-Docs/blob/main/README.md#equipment-list-line-item-nodes-by-ids))
 
 
 
