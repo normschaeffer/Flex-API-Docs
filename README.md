@@ -1,14 +1,14 @@
-# Enkadia-Alloy-Project
-Respository for the planning and development of the Alloy inventory control application
+# Enkadia - Pinpoint (for Inspirmedia)
+Respository for the planning and development of the Pinpoint equipment availability and warehouse locator app. This repository contains notes and some sample code for the Flex API.
 
 ### This is a document and project management repository only
 
 #### Flex API Notes
 
-*Working on a lightweight application for location and quick reference (Pinpoint)*
 
 #### General Notes
-*The API documentation uses names such as locationId, notesId, modelId. In most cases these names don't exist in the record, but instead are the unique Id.
+
+*In the Flex API Swagger documentation, names such as locationId, notesId, modelId are frequently used. In most cases these are not field names found in the record, but rather are the record's unique Id.
 
 
 
