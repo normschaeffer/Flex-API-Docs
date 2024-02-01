@@ -8,8 +8,9 @@ Respository for the planning and development of the Pinpoint equipment availabil
 #### Contents
 [General Notes](https://github.com/normschaeffer/Flex-API-Docs/blob/main/README.md#general-notes)  
 [Business Location](business location link here)  
-[Equipment List](equipment list link here)  
+[Equipment List](https://github.com/normschaeffer/Flex-API-Docs/edit/main/README.md#equipment-list)  
   + [Equipment List Line Item Nodes by Ids](https://github.com/normschaeffer/Flex-API-Docs/blob/main/README.md#equipment-list-line-item-nodes-by-ids)
+  + [Equipment List find items in a parent node]
 
 
 
@@ -24,7 +25,8 @@ Respository for the planning and development of the Pinpoint equipment availabil
 #### Useful Methods
 - Business location - get locationID for Inspirmedia - Main (used for some lookups) *this should be declared a constant in appdev for IM, since there is only one location*
   
-- Equipment List<a name="equipment-list></a> - contains methods to get list from pull sheet?? *need to use global search to find Pull Sheet unique id*
+#### Equipment List<a name="equipment-list"></a>
+   contains methods to get list from pull sheet?? *need to use global search to find Pull Sheet unique id*
 
  ***Sample response from Equipment List api/equipment-list/{id}***
  
@@ -159,7 +161,7 @@ Respository for the planning and development of the Pinpoint equipment availabil
   "displayName": "Kimmy Lea Event (PPKLC)"
 }
 ```
-##### Equipment List Line Item Nodes by Ids<a name="equipment-list-line-item-nodes-by-id"></a> 
+#### Equipment List Line Item Nodes by Ids<a name="equipment-list-line-item-nodes-by-id"></a> 
 This method shows the ids of the parent groups and ungrouped items on a pull sheet.
 
 ***sample response from Equipment List api/eqlist-line-item/nodes-by-ids***
@@ -279,8 +281,8 @@ This method shows the ids of the parent groups and ungrouped items on a pull she
   }
 ]
 ```
-**Equipment List find items in a parent node**<br>
-This method finds all items in a parent group or ungrouped item. Requires the use of the equipmentListId (from equipment-list/{id}) and the parentLineItemId (from api/eqlist-line-item/nodes-by-ids)
+#### Equipment List find items in a parent node<a name="equipment-list-find-items-in-a-parent-node"></a>  
+   This method finds all items in a parent group or ungrouped item. Requires the use of the equipmentListId (from equipment-list/{id}) and the parentLineItemId (from api/eqlist-line-item/nodes-by-ids)
 
 ***sample response from api/eqlist-line-item/node-list/{parentLineItemId}*** <br>
 http request <br>
