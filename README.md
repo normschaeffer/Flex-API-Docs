@@ -5,15 +5,21 @@ Respository for the planning and development of the Pinpoint equipment availabil
 
 #### Flex API Notes
 
+#### Contents
+[General Notes](general-notes)
+
 
 #### General Notes
 
-*In the Flex API Swagger documentation, names such as locationId, notesId, modelId are frequently used. In most cases these are not field names found in the record, but rather are the record's unique Id.
+* Flex uses Swagger API for documentation and methods testing.
+* In the Flex API Swagger documentation, you will frequently find names such as locationId, notesId, modelId. In most cases these are *not* field names found in the record, but rather are the record's unique Id.
+* Because Flex uses a SQL type database, desired information will typically require joins of multiple tables. 
 
 
 
 #### Useful Methods
 - Business location - get locationID for Inspirmedia - Main (used for some lookups) *this should be declared a constant in appdev for IM, since there is only one location*
+  
 - Equipment List - contains methods to get list from pull sheet?? *need to use global search to find Pull Sheet unique id*
 
  ***Sample response from Equipment List api/equipment-list/{id}***
@@ -150,7 +156,7 @@ Respository for the planning and development of the Pinpoint equipment availabil
 }
 ```
 **Equipment List Line Item Nodes by Ids**<br>
-This method shows the ids of the parent groups Inodes) and ungrouped items on a pull sheet.
+This method shows the ids of the parent groups and ungrouped items on a pull sheet.
 
 ***sample response from Equipment List api/eqlist-line-item/nodes-by-ids***
 ```
