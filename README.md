@@ -6,7 +6,9 @@ Respository for the planning and development of the Pinpoint equipment availabil
 #### Flex API Notes
 
 #### Contents
-[General Notes](https://github.com/normschaeffer/Flex-API-Docs/blob/main/README.md#general-notes)
+[General Notes](https://github.com/normschaeffer/Flex-API-Docs/blob/main/README.md#general-notes)<br>
+####
+
 
 
 #### General Notes<a name="general-notes"></a>
