@@ -159,7 +159,7 @@ Respository for the planning and development of the Pinpoint equipment availabil
   "displayName": "Kimmy Lea Event (PPKLC)"
 }
 ```
-#####Equipment List Line Item Nodes by Ids<a name="equipment-list-line-item-nodes-by-id"></a> 
+##### Equipment List Line Item Nodes by Ids<a name="equipment-list-line-item-nodes-by-id"></a> 
 This method shows the ids of the parent groups and ungrouped items on a pull sheet.
 
 ***sample response from Equipment List api/eqlist-line-item/nodes-by-ids***
