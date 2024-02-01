@@ -9,7 +9,7 @@ Respository for the planning and development of the Pinpoint equipment availabil
 [General Notes](general-notes)
 
 
-#### General Notes<a name="general-notes"></a>
+#### General Notes<a name="https://github.com/normschaeffer/Flex-API-Docs/tree/main#general-notes"></a>
 
 * Flex uses Swagger API for documentation and methods testing.
 * In the Flex API Swagger documentation, you will frequently find names such as locationId, notesId, modelId. In most cases these are *not* field names found in the record, but rather are the record's unique Id.
