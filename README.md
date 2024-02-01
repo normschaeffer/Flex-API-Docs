@@ -16,10 +16,10 @@ Respository for the planning and development of the Pinpoint equipment availabil
   
 [Global Search](https://github.com/normschaeffer/Flex-API-Docs/blob/main/README.md#global-search)
 
-[Inventory]()
-  - [Inventory Model Key Info]  
-  - [Inventory Group List]  
-  - [Inventory Model Storage Location]  
+[Inventory](https://github.com/normschaeffer/Flex-API-Docs/blob/main/README.md#inventory)
+  - [Inventory Model Key Info](https://github.com/normschaeffer/Flex-API-Docs/blob/main/README.md#inventory-model-key-info)  
+  - [Inventory Group List](https://github.com/normschaeffer/Flex-API-Docs/blob/main/README.md#inventory-group-list)
+  - [Inventory Model Storage Location](https://github.com/normschaeffer/Flex-API-Docs/blob/main/README.md#inventory-model-storage-location)  
 
 #### General Notes<a name="general-notes"></a>
 
@@ -778,6 +778,8 @@ response
   "shortNameOrName": "Shapeshifter C2"
 }
 ```
+
+#### Inventory - Key Info<a name="inventory-model-key-info"></a>
 ***Sample response from Inventory - /api/inventory-model/{modelId}key-info***<br>
 *Note this includes total qty, # out, # allocated*
 
@@ -812,8 +814,9 @@ response
   "total": 14
 }
 ```
-- Inventory Group List - may come in handy / contains all inventory group categories
-- Inventory Model Storage Location
+#### Inventory Group List<a name="inventory-group-list"></a>  
+  (how might this be used ??)
+#### Inventory Model Storage Location <a name="inventory-model-storage-location"></a>
 
 ***sample response from api/inventory-model-storage-location***
 ```[
