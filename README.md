@@ -9,7 +9,7 @@ Respository for the planning and development of the Pinpoint equipment availabil
 [General Notes](https://github.com/normschaeffer/Flex-API-Docs/blob/main/README.md#general-notes)  
 [Business Location](business location link here)  
 [Equipment List](equipment list link here)  
-  [Equipment List Line Item Nodes by Ids](https://github.com/normschaeffer/Flex-API-Docs/blob/main/README.md#equipment-list-line-item-nodes-by-ids)
+  + [Equipment List Line Item Nodes by Ids](https://github.com/normschaeffer/Flex-API-Docs/blob/main/README.md#equipment-list-line-item-nodes-by-ids)
 
 
 
@@ -24,7 +24,7 @@ Respository for the planning and development of the Pinpoint equipment availabil
 #### Useful Methods
 - Business location - get locationID for Inspirmedia - Main (used for some lookups) *this should be declared a constant in appdev for IM, since there is only one location*
   
-- Equipment List - contains methods to get list from pull sheet?? *need to use global search to find Pull Sheet unique id*
+- Equipment List<a name="equipment-list></a> - contains methods to get list from pull sheet?? *need to use global search to find Pull Sheet unique id*
 
  ***Sample response from Equipment List api/equipment-list/{id}***
  
