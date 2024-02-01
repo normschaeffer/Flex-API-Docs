@@ -6,7 +6,7 @@ Respository for the planning and development of the Pinpoint equipment availabil
 #### Flex API Notes
 
 #### Contents
-[General Notes](general-notes)
+[General Notes](General_Notes)
 
 
 #### General Notes
