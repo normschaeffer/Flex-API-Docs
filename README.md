@@ -10,8 +10,9 @@ Respository for the planning and development of the Pinpoint equipment availabil
 [Business Location](business location link here)  
 [Equipment List](https://github.com/normschaeffer/Flex-API-Docs/edit/main/README.md#equipment-list)  
   + [Equipment List Line Item Nodes by Ids](https://github.com/normschaeffer/Flex-API-Docs/blob/main/README.md#equipment-list-line-item-nodes-by-ids)
-  + [Equipment List find items in a parent node](https://github.com/normschaeffer/Flex-API-Docs/blob/main/README.md#equipment-list-find-items-in-a-parent-node)  
-[Global Search]  
+  + [Equipment List find items in a parent node](https://github.com/normschaeffer/Flex-API-Docs/blob/main/README.md#equipment-list-find-items-in-a-parent-node)
+     
+[Global Search](https://github.com/normschaeffer/Flex-API-Docs/blob/main/README.md#global-search)  
 [Inventory]  
   - [Inventory Model Key Info]  
   - [Inventory Group List]  
