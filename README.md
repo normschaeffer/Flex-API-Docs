@@ -10,9 +10,12 @@ Respository for the planning and development of the Pinpoint equipment availabil
 [Business Location](business location link here)  
 [Equipment List](https://github.com/normschaeffer/Flex-API-Docs/edit/main/README.md#equipment-list)  
   + [Equipment List Line Item Nodes by Ids](https://github.com/normschaeffer/Flex-API-Docs/blob/main/README.md#equipment-list-line-item-nodes-by-ids)
-  + [Equipment List find items in a parent node](https://github.com/normschaeffer/Flex-API-Docs/blob/main/README.md#equipment-list-find-items-in-a-parent-node)
-
-
+  + [Equipment List find items in a parent node](https://github.com/normschaeffer/Flex-API-Docs/blob/main/README.md#equipment-list-find-items-in-a-parent-node)  
+[Global Search]  
+[Inventory]  
+  - [Inventory Model Key Info]  
+  - [Inventory Group List]  
+  - [Inventory Model Storage Location]  
 
 #### General Notes<a name="general-notes"></a>
 
@@ -632,8 +635,11 @@ response
 ```
 
 
-- Global search - can search by text, barcode, various categories (e.g. inventory-model, contact, serial, all ...)
-- Inventory - includes a global get using modelId
+#### Global search<a name="global-seach"></a>  
+   can search by text, barcode, various categories (e.g. inventory-model, contact, serial, all ...)
+   
+#### Inventory<a name="inventory-model"></a>
+   includes a global get using modelId
 
 ***Sample response from Inventory - /api/inventory-model/{modelId}***
 ```{
