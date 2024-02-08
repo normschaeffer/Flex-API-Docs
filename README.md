@@ -1,11 +1,11 @@
 # Flex API Documentation
 This respository for the planning and development for Inspirmedia Productions' Pinpoint equipment availability and warehouse locator app. This repository contains notes and some sample code for the Flex API necessary for that application. Other contributions to decode the mysteries of the Flex API are welcome.
 
-### PLEASE NOTE: This is a document repository only
+#### *PLEASE NOTE: This is a document repository only*
 
 #### Flex API Notes
 
-#### Contents
+### Contents
 [General Notes](https://github.com/normschaeffer/Flex-API-Docs/blob/main/README.md#general-notes)
 
 [Business Location](business location link here)
@@ -21,7 +21,7 @@ This respository for the planning and development for Inspirmedia Productions' P
   - [Inventory Group List](https://github.com/normschaeffer/Flex-API-Docs/blob/main/README.md#inventory-group-list)
   - [Inventory Model Storage Location](https://github.com/normschaeffer/Flex-API-Docs/blob/main/README.md#inventory-model-storage-location)  
 
-#### General Notes<a name="general-notes"></a>
+### General Notes<a name="general-notes"></a>
 
 * Visit the [API Getting Started Guide](https://helpcenter.flexrentalsolutions.com/hc/en-us/articles/4419036656151-API-Getting-Started-Guide) for information on requesting API access and generating Flex API keys.
 * Flex uses Swagger API for documentation and methods testing. You will be required to use your API key to execute Swagger.
@@ -30,10 +30,10 @@ This respository for the planning and development for Inspirmedia Productions' P
 
 
 
-#### Useful Methods
+### Useful Methods
 - Business location - get locationID for the business or company address information. The method is used for some lookups.  *Consider declaring this as a constant in your programming, particularly for businesses with a single location*
   
-#### Equipment List<a name="equipment-list"></a>
+### Equipment List<a name="equipment-list"></a>
    contains methods to get list from pull sheet?? *need to use global search to find Pull Sheet unique id*
 
  ***Sample response from Equipment List api/equipment-list/{id}***
@@ -169,7 +169,7 @@ This respository for the planning and development for Inspirmedia Productions' P
   "displayName": "Kim's Event (PPKLC)"
 }
 ```
-#### Equipment List Line Item Nodes by Ids<a name="equipment-list-line-item-nodes-by-id"></a> 
+### Equipment List Line Item Nodes by Ids<a name="equipment-list-line-item-nodes-by-id"></a> 
 This method shows the ids of the parent groups and ungrouped items on a pull sheet.
 
 ***sample response from Equipment List api/eqlist-line-item/nodes-by-ids***
@@ -289,16 +289,16 @@ This method shows the ids of the parent groups and ungrouped items on a pull she
   }
 ]
 ```
-#### Equipment List find items in a parent node<a name="equipment-list-find-items-in-a-parent-node"></a>  
+### Equipment List find items in a parent node<a name="equipment-list-find-items-in-a-parent-node"></a>  
    This method finds all items in a parent group or ungrouped item. Requires the use of the equipmentListId (from equipment-list/{id}) and the parentLineItemId (from api/eqlist-line-item/nodes-by-ids)
 
 ***sample response from api/eqlist-line-item/node-list/{parentLineItemId}*** <br>
-http request <br>
+#### *HTTP Request* <br>
 *note in the request the parentLineItemId is follows the method without any identifier (i.e. there is not ...node-list/parentLineItemId=83a711...)*
 ```
 https://yourcompany.flexrentalsolutions.com/f5/api/eqlist-line-item/node-list/83a71180-8492-11ee-9ae0-e2999141f70a?equipmentListId=838a13a0-8492-11ee-9ae0-e2999141f70a&page=0&size=20
 ```
-response
+#### *Response*
 ```
 {
   "content": [
