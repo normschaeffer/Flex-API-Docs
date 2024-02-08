@@ -308,7 +308,7 @@ response
       "resourceId": "a02ae6e0-8ad9-11e4-bda6-00259031aaaa",
       "resourceBarcode": "00150",
       "resourceClassName": "com.shoptick.inventory.domain.InventoryItem",
-      "resourceImageUrl": "https://inspirmedia.flexrentalsolutions.com/f5/api/image/file/b69a45c2-28b0-4586-a623-7fee40c73897",
+      "resourceImageUrl": "https://yourcompanyname.flexrentalsolutions.com/f5/api/image/file/b69a45c2-28b0-4586-a623-7fee40c73897",
       "group": false,
       "leaf": true,
       "virtual": false,
