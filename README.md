@@ -23,9 +23,10 @@ This respository for the planning and development for Inspirmedia Productions' P
 
 #### General Notes<a name="general-notes"></a>
 
-* Flex uses Swagger API for documentation and methods testing.
-* In the Flex API Swagger documentation, you will frequently find names such as locationId, notesId, modelId. In most cases these are *not* field names found in the record, but rather are the record's unique Id.
-* Because Flex uses a SQL type database, desired information will typically require joins of multiple tables. 
+* Visit the [API Getting Started Guide](https://helpcenter.flexrentalsolutions.com/hc/en-us/articles/4419036656151-API-Getting-Started-Guide) for information on requesting API access and generating Flex API keys.
+* Flex uses Swagger API for documentation and methods testing. You will be required to use your API key to execute Swagger.
+* In the Flex API Swagger documentation, you will frequently find names such as locationId, notesId, modelId. In most cases these are *not* field names found in the record, but rather are the record's unique Id. Flex makes it clear they do not support the API. It is not well documented in Swagger.
+* Because Flex uses a SQL type database, desired information will typically accessing multiple tables. 
 
 
 
@@ -223,7 +224,7 @@ This method shows the ids of the parent groups and ungrouped items on a pull she
     "resourceId": "10cffa94-8dba-4695-942c-54bfba3a5da8",
     "resourceBarcode": "03983",
     "resourceClassName": "com.shoptick.inventory.domain.InventoryItem",
-    "resourceImageUrl": "https://yourcompanyname.flexrentalsolutions.com/f5/api/image/file/d7e89502-03fb-4690-98cf-5642bf77f371",
+    "resourceImageUrl": "https://yourcompany.flexrentalsolutions.com/f5/api/image/file/d7e89502-03fb-4690-98cf-5642bf77f371",
     "group": false,
     "leaf": true,
     "virtual": false,
@@ -295,7 +296,7 @@ This method shows the ids of the parent groups and ungrouped items on a pull she
 http request <br>
 *note in the request the parentLineItemId is follows the method without any identifier (i.e. there is not ...node-list/parentLineItemId=83a711...)*
 ```
-https://inspirmedia.flexrentalsolutions.com/f5/api/eqlist-line-item/node-list/83a71180-8492-11ee-9ae0-e2999141f70a?equipmentListId=838a13a0-8492-11ee-9ae0-e2999141f70a&page=0&size=20
+https://yourcompany.flexrentalsolutions.com/f5/api/eqlist-line-item/node-list/83a71180-8492-11ee-9ae0-e2999141f70a?equipmentListId=838a13a0-8492-11ee-9ae0-e2999141f70a&page=0&size=20
 ```
 response
 ```
@@ -336,7 +337,7 @@ response
       "resourceId": "a00d4cc0-8ad9-11e4-bda6-00259031aaaa",
       "resourceBarcode": "00144",
       "resourceClassName": "com.shoptick.inventory.domain.InventoryItem",
-      "resourceImageUrl": "https://inspirmedia.flexrentalsolutions.com/f5/api/image/file/6a590630-4c85-11e7-af45-00259031aaaa",
+      "resourceImageUrl": "https://yourcompany.flexrentalsolutions.com/f5/api/image/file/6a590630-4c85-11e7-af45-00259031aaaa",
       "group": false,
       "leaf": true,
       "virtual": false,
@@ -364,7 +365,7 @@ response
       "resourceId": "a02f53b0-8ad9-11e4-bda6-00259031aaaa",
       "resourceBarcode": "00151",
       "resourceClassName": "com.shoptick.inventory.domain.InventoryItem",
-      "resourceImageUrl": "https://inspirmedia.flexrentalsolutions.com/f5/api/image/file/912bafae-554f-43ba-a09e-31e8ae233935",
+      "resourceImageUrl": "https://yourcompany.flexrentalsolutions.com/f5/api/image/file/912bafae-554f-43ba-a09e-31e8ae233935",
       "group": false,
       "leaf": true,
       "virtual": false,
@@ -392,7 +393,7 @@ response
       "resourceId": "bb25eadf-679c-4c68-8bd1-2eafdd917dde",
       "resourceBarcode": "03118",
       "resourceClassName": "com.shoptick.inventory.domain.InventoryItem",
-      "resourceImageUrl": "https://inspirmedia.flexrentalsolutions.com/f5/api/image/file/5ff9694f-0418-404b-9510-09a9139bceb5",
+      "resourceImageUrl": "https://yourcompany.flexrentalsolutions.com/f5/api/image/file/5ff9694f-0418-404b-9510-09a9139bceb5",
       "group": false,
       "leaf": true,
       "virtual": false,
@@ -420,7 +421,7 @@ response
       "resourceId": "f260eb48-ba7e-4c34-add1-3a643f56d7ad",
       "resourceBarcode": "04135",
       "resourceClassName": "com.shoptick.inventory.domain.InventoryItem",
-      "resourceImageUrl": "https://inspirmedia.flexrentalsolutions.com/f5/api/image/file/36756aec-c600-4ed6-9fbc-e46a1036e64c",
+      "resourceImageUrl": "https://yourcompany.flexrentalsolutions.com/f5/api/image/file/36756aec-c600-4ed6-9fbc-e46a1036e64c",
       "group": false,
       "leaf": true,
       "virtual": false,
@@ -448,7 +449,7 @@ response
       "resourceId": "c575b4b9-f33a-4410-b1fe-aa80423c110e",
       "resourceBarcode": "03117",
       "resourceClassName": "com.shoptick.inventory.domain.InventoryItem",
-      "resourceImageUrl": "https://inspirmedia.flexrentalsolutions.com/f5/api/image/file/d8ca3c85-8fc8-4845-b311-bc934c5074ca",
+      "resourceImageUrl": "https://yourcompany.flexrentalsolutions.com/f5/api/image/file/d8ca3c85-8fc8-4845-b311-bc934c5074ca",
       "group": false,
       "leaf": true,
       "virtual": false,
@@ -476,7 +477,7 @@ response
       "resourceId": "1e5829e9-8f6c-49bc-8f07-4ad529083fba",
       "resourceBarcode": "04197",
       "resourceClassName": "com.shoptick.inventory.domain.InventoryItem",
-      "resourceImageUrl": "https://inspirmedia.flexrentalsolutions.com/f5/api/image/file/52d43c30-3f41-4577-93e4-34b7e1921721",
+      "resourceImageUrl": "https://yourcompany.flexrentalsolutions.com/f5/api/image/file/52d43c30-3f41-4577-93e4-34b7e1921721",
       "group": false,
       "leaf": true,
       "virtual": false,
@@ -504,7 +505,7 @@ response
       "resourceId": "cb81ebc0-3260-11ea-a66f-f23c91d0e296",
       "resourceBarcode": "02633",
       "resourceClassName": "com.shoptick.inventory.domain.InventoryItem",
-      "resourceImageUrl": "https://inspirmedia.flexrentalsolutions.com/f5/api/image/file/308e865a-59b8-45bc-b24d-dac71431a36a",
+      "resourceImageUrl": "https://yourcompany.flexrentalsolutions.com/f5/api/image/file/308e865a-59b8-45bc-b24d-dac71431a36a",
       "group": false,
       "leaf": false,
       "virtual": false,
@@ -546,7 +547,7 @@ response
       "resourceId": "a2a11596-85bd-4bcd-990e-ade17828e337",
       "resourceBarcode": "02629",
       "resourceClassName": "com.shoptick.inventory.domain.InventoryItem",
-      "resourceImageUrl": "https://inspirmedia.flexrentalsolutions.com/f5/api/image/file/3400e15d-fc2e-4636-852e-0788f28c4098",
+      "resourceImageUrl": "https://yourcompany.flexrentalsolutions.com/f5/api/image/file/3400e15d-fc2e-4636-852e-0788f28c4098",
       "group": false,
       "leaf": false,
       "virtual": false,
@@ -588,7 +589,7 @@ response
       "resourceId": "ac089f90-062e-11ea-a09f-f23c91d0e296",
       "resourceBarcode": "02521",
       "resourceClassName": "com.shoptick.inventory.domain.InventoryItem",
-      "resourceImageUrl": "https://inspirmedia.flexrentalsolutions.com/f5/api/image/file/2abdaea0-109f-11ea-a66f-f23c91d0e296",
+      "resourceImageUrl": "https://yourcompany.flexrentalsolutions.com/f5/api/image/file/2abdaea0-109f-11ea-a66f-f23c91d0e296",
       "group": false,
       "leaf": true,
       "virtual": false,
@@ -698,7 +699,7 @@ response
       "domainId": "unit-of-measure"
     },
     "additionalGroupIdentityList": [],
-    "imageUrl": "https://inspirmedia.flexrentalsolutions.com/f5/api/image/file/e9a875a0-5c87-11e5-9666-00259031aaaa",
+    "imageUrl": "https://yourcompany.flexrentalsolutions.com/f5/api/image/file/e9a875a0-5c87-11e5-9666-00259031aaaa",
     "canManageInventoryPricingPermission": true,
     "averageCost": 2250,
     "weightUnit": {
@@ -792,7 +793,7 @@ response
   "trackedBySerialUnit": true,
   "groupFullDisplayString": "Lighting > Moving Head",
   "imageId": "e9a875a0-5c87-11e5-9666-00259031aaaa",
-  "imageUrl": "https://inspirmedia.flexrentalsolutions.com/f5/api/image/file/e9a875a0-5c87-11e5-9666-00259031aaaa",
+  "imageUrl": "https://yourcompany.flexrentalsolutions.com/f5/api/image/file/e9a875a0-5c87-11e5-9666-00259031aaaa",
   "icon": {
     "id": "21df2fe0-9b63-11e4-bda6-00259031aaaa",
     "name": "Elation Blade",
