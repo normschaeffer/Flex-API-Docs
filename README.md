@@ -1,7 +1,7 @@
-# Enkadia - Pinpoint (for Inspirmedia)
-Respository for the planning and development of the Pinpoint equipment availability and warehouse locator app. This repository contains notes and some sample code for the Flex API.
+# Flex API Documentation
+This respository for the planning and development for Inspirmedia Productions' Pinpoint equipment availability and warehouse locator app. This repository contains notes and some sample code for the Flex API necessary for that application. Other contributions to decode the mysteries of the Flex API are welcome.
 
-### This is a document repository only
+### PLEASE NOTE: This is a document repository only
 
 #### Flex API Notes
 
@@ -30,7 +30,7 @@ Respository for the planning and development of the Pinpoint equipment availabil
 
 
 #### Useful Methods
-- Business location - get locationID for Inspirmedia - Main (used for some lookups) *this should be declared a constant in appdev for IM, since there is only one location*
+- Business location - get locationID for the business or company address information. The method is used for some lookups.  *Consider declaring this as a constant in your programming, particularly for businesses with a single location*
   
 #### Equipment List<a name="equipment-list"></a>
    contains methods to get list from pull sheet?? *need to use global search to find Pull Sheet unique id*
@@ -40,7 +40,7 @@ Respository for the planning and development of the Pinpoint equipment availabil
 ```
 {
   "id": "838a13a0-8492-11ee-9ae0-e2999141f70a",
-  "name": "Kimmy Lea Event",
+  "name": "Kim's Event",
   "createdByUserId": "6a83b8b3-f653-49d1-ae60-199dc283cb75",
   "createdDate": "2023-11-16T15:12:10",
   "lastEditUserId": "6a83b8b3-f653-49d1-ae60-199dc283cb75",
@@ -162,10 +162,10 @@ Respository for the planning and development of the Pinpoint equipment availabil
   "totalDeprepTime": 0,
   "totalPrepTimeAsTimeString": "00:00",
   "totalDeprepTimeAsTimeString": "00:00",
-  "leftAddressString": "LimeLight Expressions\nKimmy Lea\nP.O. Box 45414\nOmaha, NE  68145\nPhone: 402.915.3534\nEmail: Kimmylea@limelightexpressions.com",
+  "leftAddressString": "Living in the Limelight\nLeah Kim\nP.O. Box 55555\nOmaha, NE  68145\nPhone: 402.555.5515\nEmail: leah@livinginthelimelight.com",
   "rightAddressString": "Omaha Design Center\n1502 Cuming St\nOmaha, NE  68102\nPhone: (402) 819-8792",
   "domainId": "equipment-list",
-  "displayName": "Kimmy Lea Event (PPKLC)"
+  "displayName": "Kim's Event (PPKLC)"
 }
 ```
 #### Equipment List Line Item Nodes by Ids<a name="equipment-list-line-item-nodes-by-id"></a> 
