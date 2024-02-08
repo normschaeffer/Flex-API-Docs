@@ -1,7 +1,7 @@
 # Enkadia - Pinpoint (for Inspirmedia)
 Respository for the planning and development of the Pinpoint equipment availability and warehouse locator app. This repository contains notes and some sample code for the Flex API.
 
-### This is a document and project management repository only
+### This document repository only
 
 #### Flex API Notes
 
