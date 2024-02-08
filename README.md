@@ -162,8 +162,8 @@ This respository for the planning and development for Inspirmedia Productions' P
   "totalDeprepTime": 0,
   "totalPrepTimeAsTimeString": "00:00",
   "totalDeprepTimeAsTimeString": "00:00",
-  "leftAddressString": "Living in the Limelight\nLeah Kim\nP.O. Box 55555\nOmaha, NE  68145\nPhone: 402.555.5515\nEmail: leah@livinginthelimelight.com",
-  "rightAddressString": "Omaha Design Center\n1502 Cuming St\nOmaha, NE  68102\nPhone: (402) 819-8792",
+  "leftAddressString": "Living in the Limelight\nLeah Kim\nP.O. Box 55555\nNorfork, NE  48706\nPhone: 402.555.5515\nEmail: leah@livinginthelimelight.com",
+  "rightAddressString": "Center for Design\n1502 Yukon St\nNorfolk, NE  48706\nPhone: (402) 555-5154",
   "domainId": "equipment-list",
   "displayName": "Kim's Event (PPKLC)"
 }
@@ -223,7 +223,7 @@ This method shows the ids of the parent groups and ungrouped items on a pull she
     "resourceId": "10cffa94-8dba-4695-942c-54bfba3a5da8",
     "resourceBarcode": "03983",
     "resourceClassName": "com.shoptick.inventory.domain.InventoryItem",
-    "resourceImageUrl": "https://inspirmedia.flexrentalsolutions.com/f5/api/image/file/d7e89502-03fb-4690-98cf-5642bf77f371",
+    "resourceImageUrl": "https://yourcompanyname.flexrentalsolutions.com/f5/api/image/file/d7e89502-03fb-4690-98cf-5642bf77f371",
     "group": false,
     "leaf": true,
     "virtual": false,
