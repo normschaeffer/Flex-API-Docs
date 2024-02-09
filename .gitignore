@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Flex-API-Docs/FileContentIndex
+/.vs/Flex-API-Docs/FileContentIndex/01942528-294a-44ed-855f-bd31bfe27f4a.vsidx
+/.vs/Flex-API-Docs/FileContentIndex/4c98fbc6-a7b7-4c5a-8e88-0f87d8a5ec7a.vsidx
+/.vs/Flex-API-Docs/FileContentIndex/b40e7816-ce17-4fe9-ab87-1249127b7afb.vsidx
+/.vs/Flex-API-Docs/v17
+/.vs/Flex-API-Docs/v17/.wsuo
+/.vs/ProjectSettings.json
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
