@@ -1,0 +1,2 @@
+####Business location
+- get locationID for the business or company address information. The method is used for some lookups.  *Consider declaring this as a constant in your programming, particularly for businesses with a single location*
